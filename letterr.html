@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>for you ♡</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ffd6e8, #ffe4f2);
+      color: #4a2c2a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.55);
+      padding: 40px;
+      border-radius: 25px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+      max-width: 600px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      font-size: 1.8em;
+      color: #ff5f9e;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1em;
+      line-height: 1.7;
+      color: #5e3a3a;
+      margin-bottom: 20px;
+      white-space: pre-line;
+    }
+
+    .heart {
+      font-size: 2em;
+      animation: beat 1.3s infinite;
+    }
+
+    @keyframes beat {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    audio {
+      margin-top: 20px;
+      width: 80%;
+    }
+
+    .footer {
+      font-size: 0.8em;
+      color: #a27689;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>i’m sorry, my love ♡</h1>
+    <p>
+i’ve been thinking about everything i said, and i just want to say i’m really sorry :c  
+i know i mentioned something sensitive, and i can only imagine how much it must’ve hurt you.  
+i never wanted to do that, not to you. sometimes my emotions take over and i say things without thinking, maaf sayang :(  
+
+when i said we should end things, i didn’t actually mean it. i said it because i was upset, not because i wanted to lose you.  
+the truth is, i still love you so much—maybe more than i can explain.  
+i don’t want you to think i stopped caring, because i haven’t.  
+
+i know sorry might not fix everything, but i mean it with all i have.  
+i just hope you know that my love for you was never fake or temporary,  
+and sorry sayang if i let my words make you doubt that.
+    </p>
+
+    <div class="heart">💗</div>
+
+    <audio controls autoplay loop>
+      <source src="https://cdn.pixabay.com/audio/2024/05/09/audio_c98e8d8dd4.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="footer">made with love, and a sincere apology ♡</div>
+  </div>
+</body>
+</html>
